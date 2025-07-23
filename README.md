@@ -76,7 +76,7 @@ npm install
 npm run dev
 ```
 
-## 5. Setup Admin
+## 4. Setup Admin
 
 ```bash
 cd admin
@@ -84,7 +84,7 @@ npm install
 npm run dev
 ```
 
-## 4. Environment Variables
+## 5. Environment Variables
 ```bash
 PORT=5000
 MONGODB_URI=your_mongodb_uri
