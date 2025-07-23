@@ -10,8 +10,8 @@ import AddAlbum from './pages/AddAlbum';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 
-// export const url = "https://spotify-backend-x05l.onrender.com/api";
-export const url = "http://localhost:4000/api"
+// export const url = "http://localhost:4000/api"
+export const url = import.meta.env.VITE_BASE_URL;
 
 const App = () => {
   return (

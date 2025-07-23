@@ -10,11 +10,11 @@ const PlayerContextProvider = (props) => {
     const seekBg = useRef();    // This is the background of the seek bar -> Player.jsx
     const seekBar = useRef();   // This is the actual seek bar that moves when the audio is playing <hr/> -> Player.jsx
 
-    const url = 'http://localhost:4000/api';
+    // const url = 'http://localhost:4000/api';
+    const url = import.meta.env.VITE_BASE_URL
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData, setAlbumsData] = useState([]);
-    const [bgColor, setBgColor] = useState("#ffffff");
     
     const [track, setTrack] = useState(songsData[0]);
     const [playStatus, setPlayStatus] = useState(false); 
@@ -88,9 +88,6 @@ const PlayerContextProvider = (props) => {
     const getAlbumsData = async () => {
         try {
             const response = await axios.get(`${url}/album/list`);
-            console.log(response.data.albums);
-            setBgColor(response.data.albums[0].bgColor);
-            console.log(bgColor);
             
             setAlbumsData(response.data.albums);
         } catch (error) {
@@ -137,7 +134,6 @@ const PlayerContextProvider = (props) => {
         seekSong,
         songsData,
         albumsData,
-        bgColor
     }
 
     return (
