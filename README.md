@@ -2,21 +2,18 @@
 
 A full-stack Spotify-like music streaming application built using **ReactJS** and **Node.js**, featuring an intuitive user interface, music playback functionality, and an admin dashboard for managing songs and albums.
 
-🚀 [Live Demo](https://spotify-client-rho.vercel.app)
-
-[Admin Portal](https://spotify-admin-kappa.vercel.app)
+🚀 [Live Demo](https://spotify-client-rho.vercel.app)  
+🛠️ [Admin Portal](https://spotify-admin-kappa.vercel.app)
 
 ---
 
 ## 📸 Preview
 
-### Frontend
-<img width="950" height="465" alt="image" src="https://github.com/user-attachments/assets/bd1364b4-22b0-45ba-924f-c54e887d376c" />
+### Frontend  
+[![Frontend Preview](https://github.com/user-attachments/assets/bd1364b4-22b0-45ba-924f-c54e887d376c)](https://spotify-client-rho.vercel.app)
 
-### Admin Portal
-<img width="1918" height="934" alt="image" src="https://github.com/user-attachments/assets/950d3e0b-e615-4bc0-809b-e53eaa7c18bc" />
-
-
+### Admin Portal  
+[![Admin Portal Preview](https://github.com/user-attachments/assets/950d3e0b-e615-4bc0-809b-e53eaa7c18bc)](https://spotify-admin-kappa.vercel.app)
 
 ---
 
@@ -44,6 +41,8 @@ A full-stack Spotify-like music streaming application built using **ReactJS** an
 ---
 
 ## 📁 Project Structure
+
+
 
 /frontend # ReactJS frontend
 /server # Node.js + Express backend
