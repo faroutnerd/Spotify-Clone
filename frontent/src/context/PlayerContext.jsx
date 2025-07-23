@@ -10,7 +10,6 @@ const PlayerContextProvider = (props) => {
     const seekBg = useRef();    // This is the background of the seek bar -> Player.jsx
     const seekBar = useRef();   // This is the actual seek bar that moves when the audio is playing <hr/> -> Player.jsx
 
-    // const url = 'http://localhost:4000/api';
     const url = import.meta.env.VITE_BASE_URL
 
     const [songsData, setSongsData] = useState([]);
